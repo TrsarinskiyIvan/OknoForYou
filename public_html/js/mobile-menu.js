@@ -7,7 +7,7 @@ $(document).ready(function () {
     });
 
     window.addEventListener("scroll", function () {
-        if (window.innerWidth < 640) {
+        if (window.innerWidth <=640) {
             $(".mobile-side-bar").slideUp();
         }
 

@@ -115,6 +115,10 @@ div.slide-bar {
         div.side-bar div.mobile-side-bar ul.nav li a {
           font-size: 3vw;
           color: #666666; }
+        div.side-bar div.mobile-side-bar ul.nav li a:hover {
+          color: #33ff33; }
+      div.side-bar div.mobile-side-bar h3.tell {
+        font-size: 3vw; }
 
   div.slide-bar {
     margin-left: 0; } }
