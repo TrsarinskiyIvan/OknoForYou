@@ -23,4 +23,6 @@ div.about{
         @include buttonLinkHover;
     }
 }
-
+div.about:last-child{
+    margin-bottom: 4vw;
+}

@@ -21,4 +21,7 @@ div.about {
     background-color: #cc0000;
     color: #ffffff; }
 
+div.about:last-child {
+  margin-bottom: 4vw; }
+
 /*# sourceMappingURL=about.css.map */
