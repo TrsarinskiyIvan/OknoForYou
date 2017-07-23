@@ -58,6 +58,8 @@ div.side-bar {
       div.side-bar ul.social li img:hover {
         filter: grayscale(0%);
         transform: scale(1.2); }
+  div.side-bar div.buttonMenu {
+    display: none; }
 
 div.slide-bar {
   position: relative;
@@ -80,5 +82,29 @@ div.slide-bar {
     left: 2vw; }
   div.slide-bar span.next:hover, div.slide-bar span.prev:hover {
     color: #ffffff; }
+
+@media screen and (max-width: 640px) {
+  div.side-bar {
+    position: relative;
+    width: 100%; }
+    div.side-bar a.logo {
+      width: 20%;
+      margin: 0;
+      padding: 2vw; }
+    div.side-bar div.buttonMenu {
+      display: block;
+      position: absolute;
+      right: 10vw;
+      top: 40%;
+      width: 7vw;
+      cursor: pointer; }
+      div.side-bar div.buttonMenu div {
+        border-bottom: 0.5vw solid #ffffff;
+        margin-bottom: 1.8vw; }
+    div.side-bar div.mobile-side-bar {
+      display: none; }
+
+  div.slide-bar {
+    margin-left: 0; } }
 
 /*# sourceMappingURL=main.css.map */
