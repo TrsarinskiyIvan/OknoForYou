@@ -1,17 +1,5 @@
 @import "const.scss";
 
-@mixin buttonLink{
-    font-size: 1.1vw;
-    padding: 0.5vw 2vw;
-    border: 1px solid  #666666;
-    color: #666666;
-    transition: color, background-color $timeEffect;
-}
-
-@mixin buttonLinkHover{
-    background-color: #cc0000;
-    color: #ffffff;
-}
 div.content{
     margin-left: $width-side-bar;
     position:relative;

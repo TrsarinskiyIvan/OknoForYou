@@ -1,0 +1,26 @@
+@import "const.scss";
+
+div.about{
+    margin-left: $width-side-bar;
+    padding: 0 2vw;
+    h3{
+        color: #666666;
+        font-size: 2.5vw;
+        margin: 1.5vw 0;
+    }
+    p{
+        font-size: 1.3vw;
+        text-align: justify;
+        line-height: 2.2vw;
+    }
+    a{
+        @include buttonLink;
+        display: inline-block;
+        margin-top: 3vw;
+    }
+
+    a:hover{
+        @include buttonLinkHover;
+    }
+}
+

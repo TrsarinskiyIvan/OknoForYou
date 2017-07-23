@@ -1,0 +1,24 @@
+div.about {
+  margin-left: 27%;
+  padding: 0 2vw; }
+  div.about h3 {
+    color: #666666;
+    font-size: 2.5vw;
+    margin: 1.5vw 0; }
+  div.about p {
+    font-size: 1.3vw;
+    text-align: justify;
+    line-height: 2.2vw; }
+  div.about a {
+    font-size: 1.1vw;
+    padding: 0.5vw 2vw;
+    border: 1px solid  #666666;
+    color: #666666;
+    transition: color, background-color 0.2s;
+    display: inline-block;
+    margin-top: 3vw; }
+  div.about a:hover {
+    background-color: #cc0000;
+    color: #ffffff; }
+
+/*# sourceMappingURL=about.css.map */
