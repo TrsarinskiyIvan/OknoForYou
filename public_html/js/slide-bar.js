@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     var img = $(".slide-bar img");
-    var pathToImage = "img/crsl";
+    var pathToImage = "img/slide";
     var nextButton = $(".next");
     var prevButton = $(".prev");
     var quntity = 4;
