@@ -1,3 +1,5 @@
+@import "const.scss";
+
 *{
     margin: 0;
     padding: 0;
@@ -8,11 +10,6 @@
 img{
     width: 100%;
 }
-
-$width-side-bar:27%;
-$timeEffect:0.2s;
-
-
 
 div.side-bar{
     position: fixed;
@@ -88,73 +85,19 @@ div.side-bar{
     cursor: pointer;
     transition: color $timeEffect;
 }
-
-@mixin buttonLink{
-    font-size: 1.1vw;
-    padding: 0.5vw 2vw;
-    border: 1px solid  #666666;
-    color: #666666;
-    transition: color, background-color $timeEffect;
-}
-
-@mixin buttonLinkHover{
-    background-color: #cc0000;
-    color: #ffffff;
-}
-
-div.content{
-    margin-left: $width-side-bar;
+div.slide-bar{
     position:relative;
-    div.slide-bar{
-        position:relative;
-        span.next{
-            @include slide-navigation;
-            right: 2vw;
-        }
+    margin-left: $width-side-bar;
+    span.next{
+        @include slide-navigation;
+        right: 2vw;
+    }
 
-        span.prev{
-            @include slide-navigation;
-            left: 2vw;
-        }
-        span.next:hover, span.prev:hover{
-            color: #ffffff;
-        }    
+    span.prev{
+        @include slide-navigation;
+        left: 2vw;
     }
-    h1{
-        text-align: center;
-        font-size: 6vw;
-        color: #666666;
-        margin: 2vw 0;
-    }
-    div.info{
-        display: flex;
-        width: 95%;
-        margin: 3vw auto;
-        border-bottom: 1px solid #666666;
-        padding-bottom: 2vw;
-        img{
-            display: block;
-            width: 30vw;
-        }
-        .description{
-            padding-left: 3vw;
-            h3{
-                font-size: 2vw;
-                color: #666666;
-            }
-            ul{
-                margin: 2vw 0;
-                li{
-                    margin: 0.8vw 0;
-                    font-size: 1.5vw;
-                }
-            }
-            a.more{
-                @include buttonLink;
-            }
-            a.more:hover{
-                @include buttonLinkHover;
-            }           
-        }
-    }
+    span.next:hover, span.prev:hover{
+        color: #ffffff;
+    }    
 }

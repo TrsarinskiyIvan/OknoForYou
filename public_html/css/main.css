@@ -59,61 +59,26 @@ div.side-bar {
         filter: grayscale(0%);
         transform: scale(1.2); }
 
-div.content {
-  margin-left: 27%;
-  position: relative; }
-  div.content div.slide-bar {
-    position: relative; }
-    div.content div.slide-bar span.next {
-      color: #666666;
-      text-transform: uppercase;
-      position: absolute;
-      top: 50%;
-      cursor: pointer;
-      transition: color 0.2s;
-      right: 2vw; }
-    div.content div.slide-bar span.prev {
-      color: #666666;
-      text-transform: uppercase;
-      position: absolute;
-      top: 50%;
-      cursor: pointer;
-      transition: color 0.2s;
-      left: 2vw; }
-    div.content div.slide-bar span.next:hover, div.content div.slide-bar span.prev:hover {
-      color: #ffffff; }
-  div.content h1 {
-    text-align: center;
-    font-size: 6vw;
+div.slide-bar {
+  position: relative;
+  margin-left: 27%; }
+  div.slide-bar span.next {
     color: #666666;
-    margin: 2vw 0; }
-  div.content div.info {
-    display: flex;
-    width: 95%;
-    margin: 3vw auto;
-    border-bottom: 1px solid #666666;
-    padding-bottom: 2vw; }
-    div.content div.info img {
-      display: block;
-      width: 30vw; }
-    div.content div.info .description {
-      padding-left: 3vw; }
-      div.content div.info .description h3 {
-        font-size: 2vw;
-        color: #666666; }
-      div.content div.info .description ul {
-        margin: 2vw 0; }
-        div.content div.info .description ul li {
-          margin: 0.8vw 0;
-          font-size: 1.5vw; }
-      div.content div.info .description a.more {
-        font-size: 1.1vw;
-        padding: 0.5vw 2vw;
-        border: 1px solid  #666666;
-        color: #666666;
-        transition: color, background-color 0.2s; }
-      div.content div.info .description a.more:hover {
-        background-color: #cc0000;
-        color: #ffffff; }
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    transition: color 0.2s;
+    right: 2vw; }
+  div.slide-bar span.prev {
+    color: #666666;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    transition: color 0.2s;
+    left: 2vw; }
+  div.slide-bar span.next:hover, div.slide-bar span.prev:hover {
+    color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */
