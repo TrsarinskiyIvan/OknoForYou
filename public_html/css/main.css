@@ -102,7 +102,19 @@ div.slide-bar {
         border-bottom: 0.5vw solid #ffffff;
         margin-bottom: 1.8vw; }
     div.side-bar div.mobile-side-bar {
-      display: none; }
+      display: none;
+      position: fixed;
+      z-index: 1;
+      height: 100%;
+      top: 0;
+      right: 0;
+      width: 30%;
+      background-color: #ffffff; }
+      div.side-bar div.mobile-side-bar ul.nav li {
+        margin: 1.5vw 0; }
+        div.side-bar div.mobile-side-bar ul.nav li a {
+          font-size: 3vw;
+          color: #666666; }
 
   div.slide-bar {
     margin-left: 0; } }

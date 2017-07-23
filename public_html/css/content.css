@@ -35,4 +35,14 @@ div.content {
         background-color: #cc0000;
         color: #ffffff; }
 
+@media screen and (max-width: 640px) {
+  div.content {
+    margin-left: 0; }
+    div.content div.info div.description h3 {
+      font-size: 3.5vw; }
+    div.content div.info div.description ul li {
+      font-size: 2.9vw; }
+    div.content div.info div.description a.more {
+      font-size: 2.5vw; } }
+
 /*# sourceMappingURL=content.css.map */

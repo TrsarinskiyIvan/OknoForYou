@@ -24,4 +24,15 @@ div.about {
 div.about:last-child {
   margin-bottom: 4vw; }
 
+@media screen and (max-width: 640px) {
+  div.about {
+    margin-left: 0; }
+    div.about h3 {
+      font-size: 3vw; }
+    div.about p {
+      font-size: 2.5vw;
+      line-height: 3vw; }
+    div.about a {
+      font-size: 2.5vw; } }
+
 /*# sourceMappingURL=about.css.map */

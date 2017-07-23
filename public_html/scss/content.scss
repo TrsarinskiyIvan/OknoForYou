@@ -42,3 +42,21 @@ div.content{
         }
     }
 }
+@media screen and (max-width:640px){
+    div.content{
+        margin-left: 0;
+        div.info{
+            div.description{
+                h3{
+                    font-size: 3.5vw;
+                }
+                ul li{
+                    font-size: 2.9vw;
+                }
+                a.more{
+                    font-size: 2.5vw;
+                }
+            }
+        }
+    }
+}
