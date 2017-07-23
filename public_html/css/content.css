@@ -12,8 +12,7 @@ div.content {
     margin: 3vw auto;
     border-bottom: 1px solid #666666;
     padding-bottom: 2vw; }
-    div.content div.info img {
-      display: block;
+    div.content div.info div.picture {
       width: 30vw; }
     div.content div.info .description {
       padding-left: 3vw; }
