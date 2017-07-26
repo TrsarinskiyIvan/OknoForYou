@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="0.48.4 r9939"
+   version="1.1"
+   id="svg5666"
+   height="1052.3622047"
+   width="744.09448819"
+   sodipodi:docname="window_logo.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.76184082"
+     inkscape:cx="715.88834"
+     inkscape:cy="629.30469"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="940"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       id="grid5674"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <defs
+     id="defs5668" />
+  <metadata
+     id="metadata5671">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       id="g3003"
+       inkscape:export-filename="/home/ivan/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         inkscape:connector-curvature="0"
+         id="rect6186"
+         d="m 232.23837,290.75523 306.57182,0 0,319.5175 -306.57182,0 z"
+         style="fill:#5862ff;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect6188"
+         d="m 260.2912,315.82308 115.21388,0 0,125.80458 -115.21388,0 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect6192"
+         d="m 395.54348,315.82308 115.21387,0 0,125.80458 -115.21387,0 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect6194"
+         d="m 260.2912,463.98332 115.21388,0 0,125.80458 -115.21388,0 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect6196"
+         d="m 395.54348,463.98332 115.21387,0 0,125.80458 -115.21387,0 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path6847"
+         d="m 196.21735,267.51789 273.86389,-120.3566 273.86388,120.3566 z"
+         style="fill:#58be22;fill-opacity:1;stroke:#000000;stroke-width:0.54940295px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <rect
+         y="632.81311"
+         x="196.21736"
+         height="18.516399"
+         width="534.68658"
+         id="rect3771"
+         style="fill:#58be22;fill-opacity:1;stroke:none" />
+      <text
+         transform="scale(0.96210416,1.0393885)"
+         sodipodi:linespacing="125%"
+         id="text2998"
+         y="427.59076"
+         x="664.70465"
+         style="font-size:28.84493256px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+           id="tspan3002"
+           y="427.59076"
+           x="664.70465"
+           sodipodi:role="line">УСТАНОВКА</tspan><tspan
+           style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+           id="tspan3006"
+           y="463.64691"
+           x="664.70465"
+           sodipodi:role="line">ОКОН</tspan></text>
+    </g>
+  </g>
+</svg>
