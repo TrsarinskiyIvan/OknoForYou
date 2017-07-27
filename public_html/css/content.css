@@ -42,6 +42,8 @@ div.content {
     div.content div.info div.description ul li {
       font-size: 2.9vw; }
     div.content div.info div.description a.more {
-      font-size: 2.5vw; } }
+      display: inline-block;
+      font-size: 3vw;
+      padding: 2.5vw 3vw; } }
 
 /*# sourceMappingURL=content.css.map */
